@@ -113,3 +113,23 @@ ABCdlu = list(alphabets)
 print(abcdlu)
 print(ABCDLU)
 print(ABCdlu)
+
+
+#join lists
+
+
+list1 =[100,50,65,82,23,2]
+list2 =['a','K','c','d','A']
+list3 = list1 + list2
+print(list3)
+
+#joining lists by using loops
+
+for x in list2:
+    list1.append(x)
+print(list1)
+
+#extend method 
+
+list1.extend(list2)
+print(list1)
