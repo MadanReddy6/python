@@ -1,18 +1,12 @@
- x=" madan"
- y="kondreddy"
- full_name = "{} {}".format(x,y)
- print('my name is', x,y )
-
- print('my name is'+ x,y )
-
- print('my name is ,{x} {y}' )
-
- print("my fullname is ",full_name)
-
-
- full_name = "{} {}".format(x,y)
-
- print("my full name is " + full_name)
+x=" madan"
+y="kondreddy"
+full_name = "{} {}".format(x,y)
+print('my name is', x,y )
+print('my name is'+ x,y )
+print('my name is ,{x} {y}' )
+print("my fullname is ",full_name)
+full_name = "{} {}".format(x,y)
+print("my full name is " + full_name)
 
 
 
@@ -20,10 +14,10 @@
 
 print(5+3,"hello")
 
- print("hi","hello",15, sep="_")
- print("hi","_","hello",15)
- print("hi","hello",15, sep="_")
- print("hi","hello",15, sep="")
+print("hi","hello",15, sep="_")
+print("hi","_","hello",15)
+print("hi","hello",15, sep="_")
+print("hi","hello",15, sep="")
 
 
 print('G','F', sep='_',end='m') 
@@ -35,10 +29,9 @@ print('G')
 # print('geeksforgeeks') 
 
 
- print("madan","mohan", sep="-",end="reddy")
+print("madan","mohan", sep="-",end="reddy")
 
-
- print("madan\n reddy")
+print("madan\n reddy")
 
 f_name = "madan"
 L_name = "reddy"
